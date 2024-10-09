@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GithubLuis"
         tools:targetApi="31">
         <activity
+            android:name=".Github"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
